@@ -6,7 +6,9 @@ apply plugin: 'kotlin-kapt'
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
-
+    viewBinding {
+        enabled = true
+    }
     defaultConfig {
         applicationId "com.cbellmont.ejemploandroidviewmodel"
         minSdkVersion 23
